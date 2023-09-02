@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Model</title>
+        <link rel="shortcut icon" href="newlogo.png"/>
+        <link rel="stylesheet" href="model.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+        <!-- Header -->
+        <header class="header">
+         <h1>MODEL</h1>
+        </header>
+        <br>
+
+        <!--Features-->
+        <p class="para">You can try to point at the Rings, Necklace and Earrings and Click it!</p>
+
+        <div class="model">
+        <!--Model-->
+          <img src="model.jpg" usemap="#image-map">
+
+          <map name="image-map">
+              <area target="_blank" alt="" title="" href="./category/earrings.html" coords="514,90,16" shape="circle">
+              <area target="_blank" alt="" title="" href="./category/necklace.html" coords="384,219,394,237,407,246,427,251,487,258,523,252,545,234,555,217,563,190,553,173,533,164,504,194,447,197,417,186,392,164,371,173,379,208,374,213" shape="poly">
+              <area target="" alt="" title="" href="./category/ring.html" coords="328,217,21" shape="circle">
+          </map>
+      </div>
+        <br><br>
+
+        
+    
+        <!--Nav Bar-->
+        <nav>
+          <div id="mySidepanel" class="sidepanel">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="panelContent">
+                  <a href="Home.html">Home</a> 
+                  <a href="productych.html">Products</a>
+                  <a href="tiongsalespage.html">Sales</a>
+                  <a href="pricelist.html">Price List</a>  
+                  <a href="model.html">Model</a>  
+    
+                  <!---19/12/2022--><br>
+                  <p style="margin: 0%;">Category
+                    <span class="extra">
+                      <a href="category/ring.html">Ring</a>
+                      <a href="category/earrings.html">Earrings</a>
+                      <a href="category/necklace.html">Necklace</a>
+                  </span>
+                  </p>
+                  <br>
+                  <p style="margin: 0%;">More Info 
+                    <span class="extra">
+                        <a href="returns.html">Exchange &amp; Returns</a>
+                        <a href="privacy policy.html">Privacy Policy</a>
+                        <a href="privacy.html">Terms &amp; Policies</a>
+                        <a href="report.html">Report</a>
+                        <a href="datapolicy.html">Data Protection</a>
+                    </span>
+                  </p>
+                  <br>
+                <!--12/6/2022-->
+                
+                  <a href="aboutus.html">About Us</a>  
+                  <a href="contactus.html">Contact Us</a>  
+                  <a href="subcription.html">Subcription</a> 
+                  <a href="credits.html" >Credits</a>
+                  <a href="Whyus.html" >Why Us</a>
+                  <a href="bulkPurchase.html" >Bulk Orders</a>
+              </div>
+          </div>
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
+      </nav>
+  
+            <div class="loader-wrapper">
+            <span class="loader">
+            <span class="loader-inner"></span>
+            </span>
+            </div>
+  
+  
+    <script>
+      
+      function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+      }
+      function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+      }
+      closeNav();
+      
+  </script>

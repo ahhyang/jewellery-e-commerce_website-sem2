@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Price List</title>
+        <link rel="shortcut icon" href="newlogo.png"/>
+        <meta name="Viewport" content="width=device=width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="pricelist.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav>
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="panelContent">
+                    <a href="Home.html">Home</a> 
+                    <a href="productych.html">Products</a>
+                    <a href="tiongsalespage.html">Sales</a>
+                    <a href="pricelist.html">Price List</a>  
+                    <a href="model.html">Model</a>  
+    
+                    <!---19/12/2022--><br>
+                    <p style="margin: 0%;">Category
+                      <span class="extra">
+                        <a href="category/ring.html">Ring</a>
+                        <a href="category/earrings.html">Earrings</a>
+                        <a href="category/necklace.html">Necklace</a>
+                    </span>
+                    </p>
+                    <br>
+                    <p style="margin: 0%;">More Info 
+                      <span class="extra">
+                          <a href="returns.html">Exchange &amp; Returns</a>
+                          <a href="privacy policy.html">Privacy Policy</a>
+                          <a href="privacy.html">Terms &amp; Policies</a>
+                          <a href="report.html">Report</a>
+                          <a href="datapolicy.html">Data Protection</a>
+                      </span>
+                    </p>
+                    <br>
+                  <!--12/6/2022-->
+                  
+                    <a href="aboutus.html">About Us</a>  
+                    <a href="contactus.html">Contact Us</a>  
+                    <a href="subcription.html">Subcription</a> 
+                    <a href="credits.html" >Credits</a>
+                    <a href="Whyus.html" >Why Us</a>
+                    <a href="bulkPurchase.html" >Bulk Orders</a>
+
+                </div>
+            </div>
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </nav>
+    
+        <div class="loader-wrapper">
+            <span class="loader">
+                <span class="loader-inner"></span>
+            </span>
+        </div>
+        
+    
+        <script>
+            
+            
+            function openNav() {
+              document.getElementById("mySidepanel").style.width = "250px";
+            }
+            function closeNav() {
+              document.getElementById("mySidepanel").style.width = "0";
+            }
+            closeNav();
+        </script>
+        
+        <table style="width: 60%;font-family: 'Space Grotesk', sans-serif;" >
+            <tr>
+                <th style="text-align: center"> Product</th>
+                <th style="text-align: center"> Price</th>
+            </tr>
+            <tr style="height:50px">
+                <td><a style="text-decoration: none;color:white;" href="productdetails/isisring.html">ISIS(Ring)</a></td>
+                <td>RM880</td>
+            </tr>
+            <tr style="height:50px">
+                <td><a style="text-decoration: none;color:white;" href="productdetails/rikaring.html">RIKA(Ring)</a></td>
+                <td>RM980</td>
+            </tr>
+            <tr style="height:50px">
+                <td><a style="text-decoration: none;color:white;" href="productdetails/rhiannon.html">RHIANNON(Ring)</a></td>
+                <td>RM880</td>
+            </tr>
+            <tr style="height:50px">
+                <td><a style="text-decoration: none;color:white;" href="productdetails/lykos_earrings.html">LYKOS(Earrings)</a></td>
+                <td>RM880</td>
+            </tr>
+            <tr style="height:50px">
+                <td><a style="text-decoration: none;color:white;" href="productdetails/Fractus_earrings.html">FRACTUS(Earrings)</a></td>
+                <td>RM820</td>
+            </tr>
+            <tr style="height:50px">
+                <td><a style="text-decoration: none;color:white;" href="productdetails/horus.html">HORUS(Earrings)</a></td>
+                <td>RM800</td>
+            </tr>
+            <tr style="height:50px">
+                <td><a style="text-decoration: none;color:white;" href="productdetails/lapisneck.html">LAPIS(Necklace)</a></td>
+                <td>RM980</td>
+            </tr>
+            <tr style="height:50px">
+                <td><a style="text-decoration: none;color:white;" href="productdetails/lanza.html">LANZA(Necklace)</a></td>
+                <td>RM1200</td>
+            </tr>
+            <tr style="height:50px">
+                <td><a style="text-decoration: none;color:white;" href="productdetails/donia.html">DONIA(Necklace)</a></td>
+                <td>RM1200</td>
+            </tr>
+        </table>
+    </body>
+</html>
